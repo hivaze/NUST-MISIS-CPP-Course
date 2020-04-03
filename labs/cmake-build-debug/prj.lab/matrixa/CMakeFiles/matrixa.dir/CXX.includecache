@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../prj.lab/matrixa/matrixa.h
+cstddef
+-
+memory
+-
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixa/matrixa.cpp
+matrixa/matrixa.h
+-
+

@@ -1,0 +1,2 @@
+add_executable(catch2_complex catch2_complex.cpp)
+target_link_libraries(catch2_complex complex)

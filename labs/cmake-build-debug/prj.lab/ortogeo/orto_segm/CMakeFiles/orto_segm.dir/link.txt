@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liborto_segm.a  CMakeFiles/orto_segm.dir/segm.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liborto_segm.a

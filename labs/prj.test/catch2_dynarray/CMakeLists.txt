@@ -1,0 +1,2 @@
+add_executable(catch2_dynarray catch2_dynarray.cpp)
+target_link_libraries(catch2_dynarray dynarray)

@@ -1,0 +1,2 @@
+add_executable(catch2_rational catch2_rational.cpp)
+target_link_libraries(catch2_rational rational)

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liborto_rectangle.a  CMakeFiles/orto_rectangle.dir/rectangle.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liborto_rectangle.a

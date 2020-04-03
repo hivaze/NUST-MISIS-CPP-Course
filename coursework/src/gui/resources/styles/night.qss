@@ -1,0 +1,123 @@
+QWidget {
+  background-color: rgb(38, 38, 38);
+}
+
+QMessageBox {
+  font-family: Futura PT;
+  font: Bold;
+  color: white;
+  font-size: 30px;
+}
+
+QPushButton {
+  font-family: Futura PT;
+  font: Bold;
+  font-size: 15px;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 0 2px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+QLabel#instruction {
+  font-family: Futura PT;
+  font: Bold;
+  font-size: 55px;
+  color: white;
+}
+
+QPushButton#go {
+  font-family: Futura PT;
+  font: Bold;
+  font-size: 15px;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 0 2px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+QPushButton:hover#go {
+  color: gray;
+}
+
+QPushButton:pressed#go {
+  color: gold;
+}
+
+QLineEdit#request {
+  font-family: Futura PT;
+  font: Medium;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+QLabel#info {
+  font-family: Futura PT;
+  font: Medium;
+  font-size: 15px;
+  color: rgb(100, 100, 100);
+}
+
+QLabel#search {
+  font-family: Futura PT;
+  font: Bold;
+  font-size: 40px;
+  color: white;
+}
+
+QLabel#results {
+  font-family: Futura PT;
+  font: Bold;
+  font-size: 40px;
+  color: white;
+}
+
+QComboBox#mode {
+  font-family: Futura PT;
+  font: Medium;
+  font-size: 15px;
+  color: white;
+  selection-color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+QComboBox:item#mode {
+  color: gray;
+  background-color: white;
+}
+
+QComboBox:item:on#mode {
+  color: black;
+}
+
+QPushButton#back {
+  font-family: Futura PT;
+  font: Medium;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 0 4px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+QPushButton:hover#back {
+  color: gray;
+}
+
+QPushButton:pressed#back {
+  color: gold;
+}
+
+QTableWidget#table {
+  color: black;
+  background-color: white;
+}
+
+QHeaderView {
+  color: black;
+  background-color: white;
+}

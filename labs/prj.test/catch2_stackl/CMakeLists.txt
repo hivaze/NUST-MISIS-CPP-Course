@@ -1,0 +1,2 @@
+add_executable(catch2_stackl catch2_stackl.cpp)
+target_link_libraries(catch2_stackl stackl)

@@ -1,0 +1,2 @@
+add_executable(catch2_matrixa catch2_matrixa.cpp)
+target_link_libraries(catch2_matrixa matrixa)

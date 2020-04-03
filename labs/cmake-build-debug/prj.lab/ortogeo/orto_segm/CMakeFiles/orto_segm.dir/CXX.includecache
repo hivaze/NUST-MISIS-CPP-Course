@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_segm/segm.cpp
+iostream
+-
+cmath
+-
+segm.h
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_segm/segm.h
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_segm/segm.h
+

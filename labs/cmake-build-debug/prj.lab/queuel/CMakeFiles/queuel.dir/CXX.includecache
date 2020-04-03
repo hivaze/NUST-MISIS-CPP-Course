@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuel/queuel.cpp
+stdexcept
+-
+queuel.h
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuel/queuel.h
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuel/queuel.h
+limits
+-
+

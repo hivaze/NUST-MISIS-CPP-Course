@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liborto_reader.a  CMakeFiles/orto_reader.dir/reader.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liborto_reader.a

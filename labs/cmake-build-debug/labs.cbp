@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="labs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\prj.lab\;CMake Files\prj.lab\rational\;CMake Files\prj.lab\complex\;CMake Files\prj.lab\matrixa\;CMake Files\prj.lab\matrixl\;CMake Files\prj.lab\dynarray\;CMake Files\prj.lab\queuea\;CMake Files\prj.lab\queuel\;CMake Files\prj.lab\stacka\;CMake Files\prj.lab\stackl\;CMake Files\prj.lab\ortogeo\;CMake Files\prj.lab\ortogeo\orto_rectangle\;CMake Files\prj.lab\ortogeo\orto_segm\;CMake Files\prj.lab\ortogeo\orto_reader\;CMake Files\prj.test\;CMake Files\prj.test\catch2_rational\;CMake Files\prj.test\catch2_complex\;CMake Files\prj.test\catch2_matrixa\;CMake Files\prj.test\catch2_dynarray\;CMake Files\prj.test\catch2_stackl\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rational">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/librational.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 rational"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rational/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/librational.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 rational/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/rational/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/libcomplex.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 complex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/libcomplex.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 complex/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/complex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixa">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/libmatrixa.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 matrixa"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixa/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/libmatrixa.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 matrixa/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixl">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/libmatrixl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 matrixl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixl/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/libmatrixl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 matrixl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/matrixl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynarray">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/libdynarray.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 dynarray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynarray/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/libdynarray.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 dynarray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queuea">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/libqueuea.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 queuea"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queuea/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/libqueuea.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 queuea/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuea/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queuel">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/libqueuel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 queuel"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="queuel/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/libqueuel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 queuel/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/queuel/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stacka">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/libstacka.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 stacka"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stacka/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/libstacka.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 stacka/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stacka/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stackl">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/libstackl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 stackl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stackl/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/libstackl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 stackl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/stackl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="orto_rectangle">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/liborto_rectangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 orto_rectangle"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="orto_rectangle/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/liborto_rectangle.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 orto_rectangle/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_rectangle/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="orto_segm">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/liborto_segm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 orto_segm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="orto_segm/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/liborto_segm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 orto_segm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_segm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="orto_reader">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/liborto_reader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 orto_reader"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="orto_reader/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/liborto_reader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 orto_reader/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.lab/ortogeo/orto_reader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_rational">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_rational" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 catch2_rational"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_rational/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_rational" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 catch2_rational/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_rational/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_complex">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_complex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 catch2_complex"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_complex/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_complex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 catch2_complex/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_complex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_matrixa">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_matrixa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 catch2_matrixa"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_matrixa/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_matrixa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 catch2_matrixa/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_matrixa/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_dynarray">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_dynarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 catch2_dynarray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_dynarray/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_dynarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 catch2_dynarray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_dynarray/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_stackl">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_stackl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 catch2_stackl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="catch2_stackl/fast">
+				<Option output="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin.dbg/catch2_stackl" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab"/>
+					<Add directory="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.thirdparty"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 catch2_stackl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sergey/Desktop/CODE-W/CLion\ Projects/bratchikov_s_s/cmake-build-debug/prj.test/catch2_stackl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/complex/complex.cpp">
+			<Option target="complex"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/complex/complex.h">
+			<Option target="complex"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/dynarray/dynarray.cpp">
+			<Option target="dynarray"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/dynarray/dynarray.h">
+			<Option target="dynarray"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixa/matrixa.cpp">
+			<Option target="matrixa"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixa/matrixa.h">
+			<Option target="matrixa"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixl/matrixl.cpp">
+			<Option target="matrixl"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixl/matrixl.h">
+			<Option target="matrixl"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_reader/reader.cpp">
+			<Option target="orto_reader"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_reader/reader.h">
+			<Option target="orto_reader"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_rectangle/rectangle.cpp">
+			<Option target="orto_rectangle"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_rectangle/rectangle.h">
+			<Option target="orto_rectangle"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_segm/segm.cpp">
+			<Option target="orto_segm"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_segm/segm.h">
+			<Option target="orto_segm"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuea/queuea.cpp">
+			<Option target="queuea"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuea/queuea.h">
+			<Option target="queuea"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuel/queuel.cpp">
+			<Option target="queuel"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuel/queuel.h">
+			<Option target="queuel"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/rational/rational.cpp">
+			<Option target="rational"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/rational/rational.h">
+			<Option target="rational"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/stacka/stacka.cpp">
+			<Option target="stacka"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/stacka/stacka.h">
+			<Option target="stacka"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/stackl/stackl.cpp">
+			<Option target="stackl"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/stackl/stackl.h">
+			<Option target="stackl"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_complex/catch2_complex.cpp">
+			<Option target="catch2_complex"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_dynarray/catch2_dynarray.cpp">
+			<Option target="catch2_dynarray"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_matrixa/catch2_matrixa.cpp">
+			<Option target="catch2_matrixa"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_rational/catch2_rational.cpp">
+			<Option target="catch2_rational"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_stackl/catch2_stackl.cpp">
+			<Option target="catch2_stackl"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/rational/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\rational\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/complex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\complex\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixa/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\matrixa\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\matrixl\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/dynarray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\dynarray\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuea/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\queuea\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/queuel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\queuel\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/stacka/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\stacka\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/stackl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\stackl\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\ortogeo\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_rectangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\ortogeo\orto_rectangle\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_segm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\ortogeo\orto_segm\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/ortogeo/orto_reader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.lab\ortogeo\orto_reader\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_rational/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\catch2_rational\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_complex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\catch2_complex\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_matrixa/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\catch2_matrixa\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_dynarray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\catch2_dynarray\"/>
+		</Unit>
+		<Unit filename="/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.test/catch2_stackl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\prj.test\catch2_stackl\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

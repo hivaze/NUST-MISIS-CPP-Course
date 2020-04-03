@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixl/matrixl.cpp
+matrixl.h
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixl/matrixl.h
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/matrixl/matrixl.h
+cstddef
+-
+memory
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/complex/complex.cpp
+complex.h
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/complex/complex.h
+limits
+-
+iostream
+-
+cmath
+-
+
+/Users/sergey/Desktop/CODE-W/CLion Projects/bratchikov_s_s/prj.lab/complex/complex.h
+iosfwd
+-
+

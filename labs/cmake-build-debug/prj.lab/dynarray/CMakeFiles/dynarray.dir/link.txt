@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libdynarray.a  CMakeFiles/dynarray.dir/dynarray.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libdynarray.a

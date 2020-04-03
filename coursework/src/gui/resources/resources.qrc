@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource>
+        <file>fonts/FuturaPT-Bold.ttf</file>
+        <file>fonts/FuturaPT-Medium.ttf</file>
+        <file>styles/light.qss</file>
+        <file>styles/night.qss</file>
+        <file>images/icon.png</file>
+        <file>images/loader.gif</file>
+    </qresource>
+</RCC>

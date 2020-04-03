@@ -1,0 +1,5 @@
+add_subdirectory(catch2_rational)
+add_subdirectory(catch2_complex)
+add_subdirectory(catch2_matrixa)
+add_subdirectory(catch2_dynarray)
+add_subdirectory(catch2_stackl)
